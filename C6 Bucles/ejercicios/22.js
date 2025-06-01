@@ -6,9 +6,9 @@ function doWhile(num) {
   let contador = 0;
 
   do {
-    num += 5;
-    contador++;
-  } while (contador < 8);
+    num = num + 5; // Agrega 5 a la variable num;
+    contador++; // En cada vuelta aumenta el contador en 1;
+  } while (contador < 8); // Mientras el contador sea menor a 8.
 
   return num;
 }

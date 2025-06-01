@@ -4,7 +4,7 @@ function sumarHastaN(n) {
   // Tu código:
   let suma = 0;
   for (let i = 1; i <= n; i++) {
-    suma += i;
+    suma = suma + i;
   }
   return suma;
 }
